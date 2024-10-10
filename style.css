@@ -28,6 +28,7 @@ h1, p, ul, button {
 .header-logo {
   margin: 0;
   font-size: 24px;
+  font-weight: 900;
   color: #f9faf8;
 }
 
@@ -72,11 +73,14 @@ h1, p, ul, button {
 
 button {
   background-color: #3882f6;
+  color:#f9faf8;
   font-family: inherit;
   color: inherit;
   border-style: none;
   border-radius: 8px;
-  padding: 8px 24px;
+  padding: 8px 32px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* styles for the info section (header, text, and images) */
@@ -91,7 +95,7 @@ button {
 
 .info-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 0 144px 64px;
   gap: 16px
 }
@@ -137,4 +141,30 @@ button {
   width: fit-content;
   margin-left: auto;
   margin-right: 32px;
+}
+
+/* styles for the call section */
+
+.call-container {
+  padding: 80px;
+}
+
+.call-box {
+  background-color: #3882f6;
+  border-radius: 16px;
+  padding: 32px 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-box button {
+  border-color: #f9faf8;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 6px 32px;
+}
+
+.call-right {
+  display: flex;
+  align-items: center;
 }

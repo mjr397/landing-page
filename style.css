@@ -155,6 +155,7 @@ button {
   padding: 32px 64px;
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .call-box button {
@@ -167,4 +168,15 @@ button {
 .call-right {
   display: flex;
   align-items: center;
+}
+
+/* styles for the footer section */
+
+.footer-container {
+  background-color: #1f2937;
+  color:#e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
 }
